@@ -6,9 +6,15 @@ class Cars
   def model
     puts "Your model is S3!"
   end
+
+  def style
+    puts "Your style is Blacked Out!"
+  end
+
 end
 
-Cars = Cars.new
+cars = Cars.new
 
-puts Cars.make
-puts Cars.model
+puts cars.make
+puts cars.model
+puts cars.style
